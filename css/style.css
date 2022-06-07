@@ -51,3 +51,21 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.hero {
+  /* KEYNOTE:  set max-width instead of width, so when the width larger than user view port , it doesn't make scrolling window*/
+  max-width: 130rem;
+
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background-color: blueviolet;
+}
+
+.hero-img {
+  /* KEYNOTE: 
+  1)Occupy all space of parent element box 
+  2) Resize when user shrink or enlarge view port */
+  width: 100%;
+}

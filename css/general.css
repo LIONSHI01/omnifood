@@ -31,8 +31,11 @@ Paragraph default: 1.6
 #555
 
 ---03 SHADOWS
+
+
 ---04 BORDER-RADIUS
 Default: 9px
+medium: 11px
 
 ---05 whitespace
 SPACING SYSTEM (px)
@@ -152,4 +155,8 @@ body {
 .margin-right-sm {
   /* KEYNOTE:use !important set highest priority */
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }

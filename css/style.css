@@ -125,21 +125,6 @@ SPACING SYSTEM (px)
   margin-bottom: 4.8rem;
 }
 
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.6rem 3.2rem;
-  text-decoration: none;
-  border-radius: 9px;
-
-  /* KEYNOTE: 
-  1) animation of hover color transition 
-  2) Put transition on original state */
-  transition: all 0.3s;
-}
-
 .hero-img {
   /* KEYNOTE: 
   1)Occupy all space of parent element box 
@@ -283,6 +268,11 @@ SPACING SYSTEM (px)
   border-radius: 11px;
   /* KEYNOTE: Overflow Prevent img border cut off */
   overflow: hidden;
+  transition: all 0.4s;
+}
+.meal:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
@@ -343,4 +333,30 @@ SPACING SYSTEM (px)
 
 .meal-img {
   width: 100%;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  list-style: none;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+
+  gap: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
 }

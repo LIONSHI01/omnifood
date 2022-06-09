@@ -79,12 +79,20 @@ body {
   row-gap: 9.6rem;
 }
 
+/* KEYNOTE: when class grid is NOT the last child have the following property */
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2--cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3--cols {
   grid-template-columns: repeat(3, 1fr);
+}
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
 }
 /* Center grids in How it works section */
 .grid--center--v {
@@ -208,7 +216,7 @@ body {
 /* HELPER CLASSES */
 
 .margin-right-sm {
-  /* KEYNOTE:use !important set highest priority */
+  /* KEYNOTE:use !important set highest priority , overide some default setting*/
   margin-right: 1.6rem !important;
 }
 

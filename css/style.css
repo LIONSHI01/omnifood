@@ -296,27 +296,6 @@
   font-size: 1.8rem;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-
-  list-style: none;
-}
-.list-item {
-  display: flex;
-  align-items: center;
-
-  gap: 1.6rem;
-  font-size: 1.8rem;
-}
-
-.list-icon {
-  width: 3rem;
-  height: 3rem;
-  color: #e67e22;
-}
-
 /**********************************/
 /* TESTIMONIALS SECTION */
 /**********************************/
@@ -377,4 +356,11 @@
 3) Set <figure> container's overflow  = hidden to optimize visual effect*/
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/**********************************/
+/* TESTIMONIALS SECTION */
+/**********************************/
+.section-pricing {
+  padding: 9.6rem 0;
 }

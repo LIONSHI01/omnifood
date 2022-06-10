@@ -546,3 +546,43 @@
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(250, 229, 211, 0.5);
 }
+
+/**********************************/
+/* FOOTER */
+/**********************************/
+
+.footer {
+  padding: 9.6rem 0;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  list-style: none;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  gap: 1.2rem;
+}
